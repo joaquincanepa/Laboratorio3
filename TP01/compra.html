@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp01</title>
+</head>
+<body>
+<header>
+    <nav class="menu">
+        <a href="./index.html" id="btn-menu">Menú</a>
+        <a href="./galeria.html" id="btn-galeria">Galería</a>
+        <a href="#" id="btn-compra">Compra</a>
+        <a href="./receta.html" id="btn-receta">Receta</a>
+    </nav>
+</header>
+<section class="main">
+    <div class="contenedor">
+        <div class="textos">
+            <h1 class="nombre">Hacenos tu pedido</h1>
+        </div>
+        <img class="img" src="./imagenes/mccain.jpg" alt="mccain"><br>
+        <h3>Hacenos tu pedido</h3>
+
+        <form >
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <p> Marcas Disponibles :
+                <input type="checkbox" name="Marcas Disponibles" value="mc cain"> mc cain
+                <input type="checkbox" name="Marcas Disponibles" value="Simplot" > Simplot
+                <input type="checkbox" name="Marcas Disponibles" value="Papas baston" > Papas baston
+                <input type="checkbox" name="Marcas Disponibles" value="cool mind" > cool mind
+                <input type="checkbox" name="Marcas Disponibles" value="Alcampo " > Alcampo 
+                <input type="checkbox" name="Marcas Disponibles" value="Sabritas" > Sabritas
+            </p>
+            <label for="city">Ciudad: </label> <input type="text" name="city"> <br><br>
+            <label for="street">Direccion:</label><input type="text" name="address" placeholder="Ingrese su dirección aqui..." > <br><br>
+            <label for="email">Email:</label><input type="email" id="email" name="email" required><br><br>
+            <label for="mensaje">Mensaje:</label><textarea id="mensaje" name="mensaje" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Cancelar">
+        </form><br>
+    </div>
+    <hr>
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <div class="box__footer">
+                        <h2>Ayuda</h2>
+                        <ul>
+                            <div><a href="#">Contacto</a></div>
+                            <div> <a href="#">Comprar</a></div> 
+                            <div><a href="#">Desktop Desarrollo</a></div>
+                            <div><a href="#">Android Desarrollo</a></div>    
+                        </ul>
+                        
+                    </div>
+                </td>
+                <td>
+                    <div class="box__footer">
+                        <h2>Acerca de</h2>
+                        <ul>
+                            <div> <a href="#">¿Quienes somos?</a></div>
+                            <div><a href="#">preguntas frecuentes</a></div>
+                            <div><a href="#">Procesos</a></div>
+                            <div> <a href="#">Ubicacion</a></div>
+                        </ul>
+                    </div>
+                </td>
+                <td>
+                    <div class="box__footer">
+                        <h2>Redes Sociales</h2>
+                        <ul>
+                            <div><a class="facebook " href="#"> Facebook</a></div>
+                            <div><a class="Twitter " href="#"> Twitter</a></div>
+                            <div><a class="linkedin " href="#"> linkedin</a></div>
+                            <div><a class="Instagram" href="#"> Instagram</a></div>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
